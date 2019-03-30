@@ -1,5 +1,5 @@
 var myHeading = document.querySelector('h1');
-myHeading.textContent = 'This is a JavaScript generated title';
+myHeading.textContent = 'Frank Chen';
 
 
 var heroImage = document.querySelector('img');
