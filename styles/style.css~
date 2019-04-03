@@ -1,0 +1,67 @@
+html {
+    /* background-color: #fff1e5 */
+    background-color: #ffffff;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 28px 60px 60px 60px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 8px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'San Francisco', Helvetica, san-serif;
+    padding-top: 28px;
+    padding-bottom: 12px;
+}
+
+hr {
+    /* border: none; */
+    margin: 0 auto;
+    border: 0;
+    border-top: 1px dashed #8c8c8c;
+    
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    width: 600px;
+}
+
+video {
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    width: 600px;
+}
+
+p {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: gray;
+    width: 100%;
+    line-height: 1.8;
+    font-family: 'San Francisco', Helvetica, serif;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    column-width: 14em;
+}
