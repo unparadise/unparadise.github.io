@@ -36,13 +36,13 @@ h2 {
     font-family: 'San Francisco', Helvetica, san-serif;
     font-weight: 520;
     padding-top: 20px;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
     text-align: left;
 }
 
 h4 {
     padding-top: -20px;
-    margin-top: -20px;
+    margin-top: 60px;
     border-top-style: solid;
     border-top-color: black;
     border-top-width: 0.28em;
@@ -77,13 +77,32 @@ p {
     margin-bottom: 20px;
     color: gray;
     width: 100%;
-    line-height: 1.8;
+    line-height: 1.5;
     font-family: 'San Francisco', Helvetica, serif;
     font-weight: 100;
     font-size: 14px;
     text-align: left;
 }
 
+.emphasize {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: gray;
+    width: 100%;
+    line-height: 1.5em;
+    font-family: 'San Francisco', Helvetica, serif;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+}
 
 .caption {
     margin: 0 auto;
