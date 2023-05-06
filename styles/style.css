@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    width: 780px;
+    width: 70%;
+    float: right;
     margin: 0 auto;
     padding: 28px 60px 60px 60px;
     text-align: center;
@@ -33,10 +34,14 @@ h1 {
 h2 {
     font-size: 24px;
     font-family: 'San Francisco', Helvetica, san-serif;
-    font-weight: 600;
-    padding-top: 80px;
+    font-weight: 520;
+    margin-top: 80px;
+    padding-top: 20px;
     padding-bottom: 12px;
     text-align: left;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 0.28em;
 }
 
 hr {
@@ -86,11 +91,12 @@ p {
     text-decoration: underline;
 }
 
-  .floating-menu {
+.floating-menu {
     font-family: 'San Francisco', Helvetica, serif;
     /* padding: 20px; */
-    margin-left: -14em; /*Place the menu on the left side of the content */
-    width: 200px;
+    margin-left: -25%; /*Place the menu on the left side of the content */
+    width: 25%;
+    float: left;
     padding: 0.1em;
     z-index: 100;
     position: fixed;
@@ -130,7 +136,7 @@ p {
   }
 
   .floating-menu hr {
-    margin-left: 1.2em;
-    margin-right: 1.2em;
+    margin-left: 6%;
+    margin-right: 6%;
     border: 0.1px solid darkgray
   }
