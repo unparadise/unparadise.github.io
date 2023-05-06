@@ -4,17 +4,23 @@ html {
 }
 
 body {
-    width: 1200px;
+    width: 800px;
     margin: 0 auto;
     padding: 28px 60px 60px 60px;
     text-align: center;
 }
 
-
-h1 {
-    font-size: 32px;
+title{
+    font-size: 48px;
     font-family: 'San Francisco', Helvetica, san-serif;
     font-weight: 100;
+    padding-bottom: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'San Francisco', Helvetica, san-serif;
+    font-weight: 50;
     padding-bottom: 8px;
 }
 
@@ -72,3 +78,36 @@ p {
     text-align: left;
     text-decoration: underline;
 }
+
+a:hover {
+    color: hotpink;
+  }
+
+
+
+  .floating-menu {
+    font-family: 'San Francisco', Helvetica, serif;
+    background: lightgray
+    /* padding: 20px; */
+    padding-left: -150px;
+    width: 160px;
+    z-index: 100;
+    position: fixed;
+    text-align: left;
+  }
+
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    padding: 0.1em;
+    color: black
+  }
+
+  .floating-menu a:link,
+  .floating-menu a:visited,
+  .floating-menu a:hover,
+  .floating-menu a:active {
+    text-decoration: none;
+  }
