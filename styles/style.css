@@ -35,10 +35,14 @@ h2 {
     font-size: 24px;
     font-family: 'San Francisco', Helvetica, san-serif;
     font-weight: 520;
-    margin-top: 80px;
     padding-top: 20px;
     padding-bottom: 12px;
     text-align: left;
+}
+
+h4 {
+    padding-top: -20px;
+    margin-top: -20px;
     border-top-style: solid;
     border-top-color: black;
     border-top-width: 0.28em;
