@@ -13,21 +13,27 @@
   <body>
 
     <!DOCTYPE html>
-    <title>Example</title>
     <main>
       <nav class="floating-menu">
-        <a href="/css/">About</a>
-        <a href="/html/">Focus Sessions</a>
+        <hr>
+        <a rel="noopener" href="#about">About</a>
+        <hr>
+        <h3>Projects</h3>
+        <a href="">Windows Focus Sessions</a>
+        <a href="">Interactive Guided Search Query Formulation</a>
         <a rel="noopener" href="#new_location_exp">New Location Experience</a>
         <a rel="noopener" href="#windows_maps">Windows Maps</a>
+        <a rel="noopener" href="#spatial_UI">Spatial UI</a>
+        <a rel="noopener" href="#generative_design">Generative Design</a>
+        <hr>
       </nav>
     </main>
  
-      <div class="col-lg-8">
-          <h1>Frank Chen</h1>
+      <div class="scroll-container">
+          <h1 id="about">Frank Chen | 陈量</h1>
           <!-- <hr noshade></hr> -->
           <!-- <h2><a name="about">About me</a></h2> -->
-          <img src="./images/profile_photo.png" width="128">
+          <img id="profile_photo" src="./images/profile_photo.png" width="128">
           <p>Hello, my name is Frank Chen. I am a seasoned designer, product manager, design strategist with 10+ years of expereince working at the forefront of
             technolog from mobile devices back in 2008 to HoloLens in
             2017. Technology is a double edged sword and I believe that it
@@ -35,12 +41,10 @@
             individuals and the collective human race to grow and
             thrive. My hero is <a href="http://www.worrydream.com" target="_blank">Bret Victor.</a> You
             can find a copy of my <a href="frank_chen_resume.pdf">resume</a> here.</p>
-      
-          <p>Below are a few projects I have worked on recently.</p>
-          <p><a href="#spatial_UI">Spatial UI</a>
-            | <a href="#windows_maps">Windows Maps app</a>
-         | <a href="#new_location_exp">New location experience</a>
-         | <a href="#generative_design">Generative design</a>
+    
+          <h1>Projects</h1>
+
+            <h2><a id="focus_session" name="focus_session">Windows Focus Session</a></h2>
 
 
          <h2><a id="new_location_exp" name="new_location_exp">New location Experience on Windows</a></h2>
@@ -136,7 +140,7 @@
 
 
           
-          <h2><a name="adaptive_control">Spatial UI (HoloLens)</a></h2>
+          <h2><a id="spatial_UI" name="adaptive_control">Spatial UI (HoloLens)</a></h2>
       
           <p>HoloLens and Universal Windows Apps are two separate
             platforms Microsoft owns. They are separate from each
