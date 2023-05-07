@@ -58,6 +58,8 @@ hr {
 
 img {
     margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
     display: block;
     border-radius: 8px;
     margin-bottom: 28px;
@@ -74,7 +76,7 @@ video {
 
 p {
     margin: 0 auto;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px; */
     color: gray;
     width: 100%;
     line-height: 1.5;
@@ -84,7 +86,32 @@ p {
     text-align: left;
 }
 
+p.title {
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 0.9em;
+    color: gray;
+    width: 100%;
+    line-height: 1.5;
+    font-family: 'San Francisco', Helvetica, serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+.role {
+    margin: 0 auto;
+    color: gray;
+    width: 100%;
+    line-height: 1.2;
+    font-family: 'San Francisco', Helvetica, serif;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+}
+
 .emphasize {
+    padding-top: 1.2em;
     font-weight: bold;
 }
 
@@ -94,7 +121,7 @@ p {
 
 li {
     margin: 0 auto;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     color: gray;
     width: 100%;
     line-height: 1.5em;
