@@ -212,15 +212,15 @@ li {
     border: 0.1px solid darkgray
   }
 
-  .column {
-    float: left;
-    width: 30%;
-    padding: 5px;
-  }
   
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
+th {
+    width: 25%;
+    padding-right: 14px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: 150px;
+    grid-gap: 30px;
   }
