@@ -90,11 +90,11 @@ video {
 p {
     margin: 0 auto;
     /*margin-bottom: 20px; */
-    color: gray;
+    color: #555555;
     width: 100%;
     line-height: 1.8em;
     font-family: 'San Francisco', Helvetica, serif;
-    font-weight: 100;
+    /* font-weight: 300; */
     font-size: 16px;
     text-align: left;
 }
@@ -103,7 +103,7 @@ p.title {
     margin: 0 auto;
     margin-top: 2em;
     margin-bottom: 0.9em;
-    color: gray;
+    color: #555555;
     width: 100%;
     line-height: 1.5;
     font-family: 'San Francisco', Helvetica, serif;
@@ -126,7 +126,7 @@ figcaption {
     width: 100%;
     line-height: 1.2;
     font-family: 'San Francisco', Helvetica, serif;
-    font-weight: 100;
+    /* font-weight: 100; */
     font-size: 14px;
     text-align: left;
 }
@@ -147,7 +147,7 @@ li {
     width: 100%;
     line-height: 1.8em;
     font-family: 'San Francisco', Helvetica, serif;
-    font-weight: 100;
+    /* font-weight: 100; */
     font-size: 14px;
     text-align: left;
 }
@@ -173,8 +173,8 @@ li {
     position: fixed;
     text-align: left;
     line-height: 1.4em;
-    color: gray;
-    font-weight: 100;
+    color: #555555;
+    /* font-weight: 100; */
   }
 
   .floating-menu a {
@@ -196,7 +196,7 @@ li {
     text-decoration: none;
     border-left-style: solid;
     border-color: transparent;
-    color: gray;
+    color: #555555;
     transition: 0.4s;
   }
 
