@@ -15,3 +15,11 @@ img {
     margin-bottom: 28px;
     /* width: 600px; */
 }
+
+video {
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    /* width: 600px; */
+}
