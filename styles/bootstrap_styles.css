@@ -1,0 +1,9 @@
+img {
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    /* width: 600px; */
+}
