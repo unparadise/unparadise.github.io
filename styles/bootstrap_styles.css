@@ -1,3 +1,11 @@
+h1 {
+    padding-top: 2em;
+    font-size: 36px;
+    font-family: 'San Francisco', Helvetica, san-serif;
+    font-weight: 50;
+    padding-bottom: 1em;
+}
+
 img {
     margin: 0 auto;
     margin-top: 1em;
