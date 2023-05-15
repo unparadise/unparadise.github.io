@@ -1,13 +1,8 @@
-.mask-custom {
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, .15);
-  }
-
 h1 {
+    margin-top: 1em;
     padding-top: 2em;
     font-size: 36px;
     font-family: 'San Francisco', Helvetica, san-serif;
-    /* font-weight: 700; */
     padding-bottom: 0.4em;
 }
 
@@ -26,5 +21,4 @@ video {
     display: block;
     border-radius: 8px;
     margin-bottom: 28px;
-    /* width: 600px; */
 }
