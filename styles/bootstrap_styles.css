@@ -35,3 +35,7 @@ video {
     border: none;
     box-shadow: none;
 }
+
+hr {
+    width: 30%;
+}
