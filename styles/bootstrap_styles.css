@@ -8,11 +8,12 @@ h1 {
 
 img.design {
     margin: 0 auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
     display: block;
     border-radius: 8px;
-    margin-bottom: 28px;
+    border-color: #eeeeee;
+    border-style: solid;
     /* width: 600px; */
 }
 
