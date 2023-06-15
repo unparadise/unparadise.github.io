@@ -47,3 +47,9 @@ hr {
 .dropdown-menu{
     margin-top: 0;
 }
+
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    border: none;
+}
