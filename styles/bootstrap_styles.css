@@ -50,9 +50,12 @@ hr {
 
 /* Remove the outline from the hamburger menu button in small screen size */
 .navbar-toggler,
+.navbar-light,
+.navbar-toggler-icon,
 .navbar-toggler:active,
 .navbar-toggler:focus {
     border: none;
+    outline: none;
 }
 
 /* Add hover animation to the hamburger menu button */
