@@ -29,6 +29,11 @@ video {
     backdrop-filter: blur(20px);
 }
 
+.footer {
+  padding-top: 3em;
+  color:lightgray;
+}
+
 .navbar-toggler-icon,
 .navbar-toggler-icon:focus,
 .navbar-toggler-icon:active {
