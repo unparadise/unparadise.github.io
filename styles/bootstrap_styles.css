@@ -108,6 +108,7 @@ hr {
     transform: translate(0%, -166%) rotate(-45deg);
   }
 
+  /* Create card hover animation */
   .card {
     border: none;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
