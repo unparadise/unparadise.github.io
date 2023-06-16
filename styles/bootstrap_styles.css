@@ -30,9 +30,9 @@ video {
     backdrop-filter: blur(20px);
 }
 
-.footer {
-  margin-top: 6em;
-  color:lightgray;
+p.footer {
+  color:gray;
+  font-size: 0.8em;
 }
 
 .navbar-toggler-icon,
@@ -43,8 +43,10 @@ video {
     box-shadow: none;
 }
 
-hr {
-    width: 30%;
+hr.footer {
+  margin-top: 8em;
+  color: gray;
+  width: 100%;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -120,4 +122,8 @@ hr {
   .card:hover{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.container {
+  max-width: 800px;
 }
