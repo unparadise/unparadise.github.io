@@ -74,7 +74,8 @@ hr {
     position: relative;
     left: 0;
     opacity: 1;
-    transition: all 0.2s ease-out;
+    /* transition: all 0.2s ease-out; */
+    transition: all 0.2s cubic-bezier(.155,1.105,.295,1.12);
     transform-origin: center;
   }
   
