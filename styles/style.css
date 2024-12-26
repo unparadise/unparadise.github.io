@@ -54,8 +54,8 @@ h3 {
 }
 
 h4 {
-    font-weight: 600;
-    padding-top: -20px;
+    font-weight: 700;
+    /*padding-top: -20px; */
     margin-top: 80px;
     border-top-style: solid;
     border-top-color: black;
