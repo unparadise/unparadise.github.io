@@ -27,6 +27,10 @@ img.design {
     /* width: 600px; */
 }
 
+figcaption {
+    margin-bottom: 0.6em;
+}
+
 video {
     margin: 0 auto;
     display: block;
