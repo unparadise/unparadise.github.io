@@ -7,12 +7,11 @@ h1 {
 }
 
 h4 {
-    margin-top: 1.2em;
-    /*padding-top: 1em;*/
+    margin-top: 1.6em;
     font-size: 24px;
     font-family: "San Francisco", Helvetica, san-serif;
     font-weight: 600;
-    padding-bottom: 0.4em;
+    margin-bottom: 0.4em;
 }
 
 img.design {
