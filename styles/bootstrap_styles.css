@@ -6,6 +6,15 @@ h1 {
     padding-bottom: 0.4em;
 }
 
+h4 {
+    margin-top: 0.5em;
+    padding-top: 2em;
+    font-size: 24px;
+    font-family: "San Francisco", Helvetica, san-serif;
+    font-weight: 700;
+    padding-bottom: 0.4em;
+}
+
 img.design {
     margin: 0 auto;
     margin-top: 2em;
