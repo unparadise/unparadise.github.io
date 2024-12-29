@@ -21,7 +21,7 @@
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"
         ></script>
-        <script src="./js/custom_js.js"></script>
+        <script src="../js/custom_js.js"></script>
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light header">
@@ -165,7 +165,6 @@
                 User journey when traveling with friends
             </figcaption>
 
-            <br />
             <p>
                 As part of the design process for Endeavor, I worked closely
                 with the user researcher to understand the needs of millennials
@@ -241,7 +240,6 @@
                 Rich and immersive place card with comments from freinds
             </figcaption>
 
-            <br />
             <p>
                 It was crucial to create an experience that felt seamless and
                 natural, with smooth animations and transitions between screens.
@@ -298,8 +296,56 @@
 
             <hr class="footer" />
             <p class="footer">
-                Copyright © Frank Chen, 2023. All rights reserved.
+                Copyright © Frank Chen, 2024. All rights reserved.
             </p>
+        </div>
+        <div
+            class="modal fade"
+            id="imageModal"
+            tabindex="-1"
+            aria-labelledby="imageModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel">
+                            Teams Admin Center dashboard
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            id="prevButton"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <img src="" class="img-fluid" id="modalImage" />
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            id="nextButton"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
