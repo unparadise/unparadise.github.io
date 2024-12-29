@@ -147,24 +147,56 @@ hr.footer {
 
 /* style to customize the modal dialog */
 
-.modal-body {
-    padding: 0;
-    /* background-color: #000; */
-    overflow: hidden;
-}
-
-.modal-image {
-    max-height: calc(100vh - 60px);
-    max-width: 100%;
-    object-fit: contain;
-    margin: auto;
+.modal-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .modal-header {
     background-color: rgba(255, 255, 255, 0.9);
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    right: 0;
+    flex-shrink: 0; /* Prevents header from shrinking */
+}
+
+.modal-body {
+    padding: 0;
+    overflow: hidden;
+    flex-grow: 1; /* Allows body to take remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#modalImage {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
     z-index: 1;
+}
+
+.carousel-control-prev {
+    left: 20px;
+}
+
+.carousel-control-next {
+    right: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 24px;
+    height: 24px;
 }
