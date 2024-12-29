@@ -21,7 +21,7 @@
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"
         ></script>
-        <script src="./js/custom_js.js"></script>
+        <script src="../js/custom_js.js"></script>
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light header">
@@ -140,7 +140,6 @@
                 in the app window to interact with the content
             </figcaption>
 
-            <br />
             <p>
                 As can be seen in the screen above, the small size of the UI
                 controls in the app window negatively impact user's performance
@@ -153,7 +152,6 @@
             />
             <figcaption class="figure-caption">Fitt's law</figcaption>
 
-            <br />
             <h4 class="project">Process</h4>
             <p>
                 As the driving force behind this endeavor, I took charge of the
@@ -177,7 +175,6 @@
                 bring content closer then them
             </figcaption>
 
-            <br />
             <p>
                 To begin, I focused on the desktop Mail app, breaking it down
                 into distinct functional zones. I explored how interaction with
@@ -197,7 +194,6 @@
                 Analysis of the IA of the mail app - 01
             </figcaption>
 
-            <br />
             <p>
                 I devised a method that allowed users to effortlessly summon
                 content to their fingertips, mimicking the natural actions one
@@ -217,7 +213,6 @@
                 Analysis of the IA of the mail app - 02
             </figcaption>
 
-            <br />
             <p>
                 Through my relentless innovation, I pushed the boundaries of
                 what was possible, seamlessly connecting 2D desktop content to
@@ -239,8 +234,56 @@
 
             <hr class="footer" />
             <p class="footer">
-                Copyright © Frank Chen, 2023. All rights reserved.
+                Copyright © Frank Chen, 2024. All rights reserved.
             </p>
+        </div>
+        <div
+            class="modal fade"
+            id="imageModal"
+            tabindex="-1"
+            aria-labelledby="imageModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel">
+                            Teams Admin Center dashboard
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            id="prevButton"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <img src="" class="img-fluid" id="modalImage" />
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            id="nextButton"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
