@@ -21,7 +21,7 @@
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"
         ></script>
-        <script src="./js/custom_js.js"></script>
+        <script src="../js/custom_js.js"></script>
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light header">
@@ -133,8 +133,10 @@
                 11.5% from education.
             </p>
             <img
-                class="design"
                 src="../images/simplify_tac/Teams_Admin_Center.png"
+                class="design"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
                 width="100%"
             />
             <figcaption class="figure-caption">
@@ -427,6 +429,33 @@
             <p class="footer">
                 Copyright © Frank Chen, 2024. All rights reserved.
             </p>
+        </div>
+
+        <div
+            class="modal fade"
+            id="imageModal"
+            tabindex="-1"
+            aria-labelledby="imageModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel">
+                            Teams Admin Center dashboard
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="" class="img-fluid" id="modalImage" />
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

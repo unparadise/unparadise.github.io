@@ -144,3 +144,27 @@ hr.footer {
 .container {
     max-width: 900px;
 }
+
+/* style to customize the modal dialog */
+
+.modal-body {
+    padding: 0;
+    /* background-color: #000; */
+    overflow: hidden;
+}
+
+.modal-image {
+    max-height: calc(100vh - 60px);
+    max-width: 100%;
+    object-fit: contain;
+    margin: auto;
+}
+
+.modal-header {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
