@@ -1,6 +1,7 @@
 html {
     /* background-color: #fff1e5 */
     background-color: #ffffff;
+    overflow-y: scroll;
 }
 
 body {
